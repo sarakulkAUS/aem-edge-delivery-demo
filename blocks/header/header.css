@@ -187,6 +187,7 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     visibility: visible;
     white-space: nowrap;
+    justify-content: flex-end;
   }
 
   header nav[aria-expanded='true'] .nav-sections {
