@@ -187,7 +187,6 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     visibility: visible;
     white-space: nowrap;
-    justify-content: flex-end;
   }
 
   header nav[aria-expanded='true'] .nav-sections {
@@ -224,6 +223,7 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 24px;
     margin: 0;
+    justify-content: flex-end;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
