@@ -10,6 +10,8 @@
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(129, 182, 243, 1);
 }
 
 .cards .cards-card-body {
