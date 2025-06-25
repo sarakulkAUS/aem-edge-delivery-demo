@@ -1,5 +1,5 @@
 mountpoints:
   /: # https://drive.google.com/drive/u/1/folders/1gsHMArGr5FOqYwtiLxvgWrsAmAJUAcvm
-    url: "https://author-p7655-e103232.adobeaemcloud.com/bin/franklin.delivery/sarakulkAUS/aem-edge-delivery-demo/main"
+    url: "https://author-p24016-e96577.adobeaemcloud.com/bin/franklin.delivery/sarakulkAUS/aem-edge-delivery-demo/main"
     type: "markup"
     suffix: ".html"
