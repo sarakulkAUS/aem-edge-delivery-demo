@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/eds-demo/:/",
-    "/content/eds-demo/configuration:/.helix/config.json",
-    "/content/eds-demo/metadata:/metadata.json"
+    "/content/auspos-digital-id-eds/:/",
+    "/content/auspos-digital-id-eds/configuration:/.helix/config.json",
+    "/content/auspos-digital-id-eds/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/eds-demo/"
+    "/content/auspos-digital-id-eds/"
   ]
 }
