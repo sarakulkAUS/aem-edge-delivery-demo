@@ -1,29 +1,66 @@
+.cards{
+  margin: 0px auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.cards-card-body{
+  display: flex;
+  flex-direction: column;
+}
+
 .cards > ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  justify-content: center;
+  gap: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+ 
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
   background-color: var(--background-color);
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(129, 182, 243, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 555px;
+  height: 278px;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  padding: 0px 50px;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-family: 'APTypeProText-Light, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 16px;
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.cards .button{
+  max-width: unset;
+  display: block;
+  width: 200px !important;
+  height: 40px !important;
+  border-radius: 6px !important;
+  text-align: center;
+  background-color: red !important;
+  font-weight: 300 !important;
+  margin: 16px auto 0 auto;
 }
 
-.cards > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+@media (max-width: 700px) {
+  .cards > ul {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
 }
