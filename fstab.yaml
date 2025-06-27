@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    url: "https://author-p7655-e103198.adobeaemcloud.com/bin/franklin.delivery/sarakulkAUS/aem-edge-delivery-demo/main"
-    type: "markup"
-    suffix: ".html"
+  /: https://drive.google.com/drive/u/1/folders/1gsHMArGr5FOqYwtiLxvgWrsAmAJUAcvm
